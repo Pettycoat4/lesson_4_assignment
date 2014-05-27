@@ -1,0 +1,124 @@
+/*MAIN SCSS FILE*/
+
+@import '../scss/variables';
+
+
+
+/*mixins*/
+@mixin border-radius($radius) { -webkit-border-radius: $radius; -moz-border-radius: $radius; -ms-border-radius: $radius; -o-border-radius: $radius; border-radius: $radius;}
+
+
+.container {
+	margin: 0, auto;
+	max-width: 960px;
+}
+
+.seperator {
+	@include border-radius(10px);
+	@extend .container;
+	padding:20px;
+
+}
+
+
+
+
+h1 {
+	font-family: $heading-font;
+	color:$primary-color;
+	font-size: $xxlarge;
+}
+
+h2 {
+	font-family: $heading-font;
+	color:$secondary-color;
+	font-size: $xlarge;
+}
+
+h3 {
+	font-family: $heading-font;
+	color:$tertiary-color;
+	font-size: $large;
+}
+
+.smallparagraph {
+	font-size: $small;
+	font-family: $paragraph-font;
+	color: $paragraph-color;
+
+}
+
+.mediumparagraph{
+	font-size: $medium;
+	font-family: $paragraph-font;
+	color: $paragraph-color;
+
+}
+
+.largeparagraph{
+	font-size: $large;
+	font-family: $paragraph-font;
+	color: $paragraph-color;
+
+}
+
+.italicparagraph{
+	font-size: $small;
+	font-family: $pic-id-font;
+	color: $secondary-color;
+
+}
+
+.link {
+	text-decoration: none;
+	font-family: $paragraph-font;
+	color: $secondary-color;
+}
+
+
+.btn {
+	@include border-radius(10px);
+	width: 150px;
+	height: 40px;
+	background-color: $background-color-2;
+	text-align: center;
+
+	padding-top: 15px;
+	box-shadow: 2px 2px $secondary-color;
+
+		a {
+			text-decoration: none;
+			color: $primary-color;
+			font-style: $paragraph-font bold;
+			text-shadow: 1px 1px gray;
+			text-transform: capitalize;
+		}
+
+}
+
+.specialbtn {
+	@include border-radius(10px);
+	width: 150px;
+	height: 40px;
+	background-color: $go-color;
+	text-align: center;
+	padding-top: 15px;
+	box-shadow: 2px 2px $secondary-color;
+
+		a {
+			text-decoration: none;
+			color: white;
+			font-style: $paragraph-font bold;
+			text-shadow: 1px 1px gray;
+			text-transform: capitalize;
+		}
+
+}
+
+
+
+
+
+
+
+

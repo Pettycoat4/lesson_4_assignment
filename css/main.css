@@ -1,0 +1,122 @@
+/*MAIN SCSS FILE*/
+/*PARAGRAPH AND HEADING FONT VARIABLES*/
+/*PARAGRAPH AND HEADING FONT SIZES*/
+/*COLOR VARIABLES*/
+/*mixins*/
+/* line 11, ../scss/main.scss */
+.container, .seperator {
+  margin: 0, auto;
+  max-width: 960px;
+}
+
+/* line 16, ../scss/main.scss */
+.seperator {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* line 26, ../scss/main.scss */
+h1 {
+  font-family: "Raleway", sans-serif;
+  color: #006363;
+  font-size: 48px;
+}
+
+/* line 32, ../scss/main.scss */
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: #a64b00;
+  font-size: 36px;
+}
+
+/* line 38, ../scss/main.scss */
+h3 {
+  font-family: "Raleway", sans-serif;
+  color: #1d7373;
+  font-size: 24px;
+}
+
+/* line 44, ../scss/main.scss */
+.smallparagraph {
+  font-size: 12px;
+  font-family: "PT Sans", sans-serif;
+  color: black;
+}
+
+/* line 51, ../scss/main.scss */
+.mediumparagraph {
+  font-size: 16px;
+  font-family: "PT Sans", sans-serif;
+  color: black;
+}
+
+/* line 58, ../scss/main.scss */
+.largeparagraph {
+  font-size: 24px;
+  font-family: "PT Sans", sans-serif;
+  color: black;
+}
+
+/* line 65, ../scss/main.scss */
+.italicparagraph {
+  font-size: 12px;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #a64b00;
+}
+
+/* line 72, ../scss/main.scss */
+.link {
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+  color: #a64b00;
+}
+
+/* line 79, ../scss/main.scss */
+.btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  background-color: #ffb273;
+  text-align: center;
+  padding-top: 15px;
+  box-shadow: 2px 2px #a64b00;
+}
+/* line 89, ../scss/main.scss */
+.btn a {
+  text-decoration: none;
+  color: #006363;
+  font-style: "PT Sans", sans-serif bold;
+  text-shadow: 1px 1px gray;
+  text-transform: capitalize;
+}
+
+/* line 99, ../scss/main.scss */
+.specialbtn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  background-color: green;
+  text-align: center;
+  padding-top: 15px;
+  box-shadow: 2px 2px #a64b00;
+}
+/* line 108, ../scss/main.scss */
+.specialbtn a {
+  text-decoration: none;
+  color: white;
+  font-style: "PT Sans", sans-serif bold;
+  text-shadow: 1px 1px gray;
+  text-transform: capitalize;
+}
